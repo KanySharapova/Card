@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    margin-top: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    margin:  auto;
+    width: 600px;
+    height: 460px;
+    border-radius: 8px;
+    margin-top: 8rem;
+    
+    
+}
+
+.card {
+    margin: auto;
+    width: 250px;
+    padding-top: 1.8rem;
+    height: 500px;
+    
+}
+
+.text-block {
+    display: block;
+    text-align: left;
+    height: 300px;
+
+}
+
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    line-height: 1.3rem;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: "Fraunces";
+    color: hsl(212, 21%, 14%);
+    line-height: 2rem;
+    padding: 0.6rem 0;
+}
+
+.main-span {
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.span-div {
+    padding-top: 1rem;
+    position: relative;
+
+}
+
+.new-price {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-size: 28px;
+}
+
+.old-price {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-decoration: line-through;
+    padding-left: 20px;
+    position: absolute;
+    top: 26px;
+
+
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    width: 250px;
+    padding: 0.8rem 0;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: hsl(158, 37%, 27%);
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+
+
+#img1 {
+    display: inline-block;
+    width: 300px;
+    height: 460px;
+    border-radius: 8px 0px  0 8px;
+}
+
+#img2 {
+    display: none;
+}
+
+@media all and (max-width: 375px) {
+    #img1 {
+        display: none;
+    }
+
+    #img2 {
+        display: block;
+        width: 339.6px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .container {
+        display: block;
+        width: 340px;
+        height: 570px;
+    }
+
+    .card {
+        width: 295px;
+    padding-top: 1rem;
+    height: 300px;
+    }
+
+    .text-block {
+        display: block;
+        text-align: left;
+        height: 250px;
+    
+    }
+
+    button {
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        border: none;
+        width: 295px;
+        padding: 0.8rem 0;
+        border-radius: 8px;
+        font-family: "Montserrat";
+        font-size: 14px;
+    
+    
+    }
+
+}
